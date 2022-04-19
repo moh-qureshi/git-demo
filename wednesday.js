@@ -87,14 +87,49 @@
 //     }
 // }
 
-const bobsFollowers = ["John", "Mike", "Sarah", "Paul"]
-const hannahsFollowers = ["Kevin", "Paul", "Laura", "George"]
-let result = []
 
-for (let i = 0; i < bobsFollowers.length; i++){
-    for(let j = 0; j < hannahsFollowers.length; j++){
-        if (bobsFollowers[i] === hannahsFollowers[j]){
-            console.log(bobsFollowers[i])
-        }
-    }
-}
+//      Activity 6
+
+
+// const bobsFollowers = ["John", "Mike", "Sarah", "Paul"]
+// const hannahsFollowers = ["Kevin", "Paul", "Laura", "George"]
+
+
+// for (let i = 0; i < bobsFollowers.length; i++){
+//     for(let j = 0; j < hannahsFollowers.length; j++){
+//         if (bobsFollowers[i] === hannahsFollowers[j]){
+//             console.log(bobsFollowers[i])
+//         }
+//     }
+// }
+
+
+// For loop
+
+// let numbersArray = [1, 2, 3, 4, 5];
+// for (let i = 0; i < 5; i++){
+//     console.log(numbersArray[i]);
+// }
+
+// For loops run through each iteration of an array until the argument is met (i < 5).
+
+
+// While loop
+
+// let i = 0;
+// while (i < 5){
+//     console.log(i is less than 5.);
+//     i++;
+// }
+
+//While loops runs the loop as long as the argument has not been met, until it has that is when it stops.
+
+// Do while loop
+
+// let i = 0;
+// do {
+//     console.log(i is more than 5.);
+//     i++;
+// } while (i < 5)
+
+// Do while loops runs the loop and logs an output while an argument has not been met.
